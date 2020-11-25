@@ -13,3 +13,38 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#wave_1 {
+    background-color: #C5D2D2;
+      height: 100%;
+}
+#section_heading {
+    transform: translateY(-300px);
+  
+}
+
+#wave2 {
+    background-color: #012D32;
+    height: 100%;
+}
+#section_heading2 {
+    transform: translateY(-60px);
+    color: white;
+}
+#wave3 {
+background-color: #C4D2D2;
+height: 100%;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  #section_heading {
+    transform: translateY(150px);
+}
+#section_heading2 {
+    transform: translateY(-230px);
+}
+}
+
+
